@@ -1,2 +1,39 @@
-
 /* Your CSS Code here. */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Table Styling */
+table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Header Row */
+thead {
+    background-color: #8b0000;
+    color: white;
+}
+
+/* Row Colors */
+.waist {
+    background-color: #d98888;
+}
+
+.chest {
+    background-color: #e5d0d0;
+}
+
+.sleeve {
+    background-color: #d3d3d3;
+}
